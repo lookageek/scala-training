@@ -1,8 +1,9 @@
-package com.jpmc.codecs
+package com.scalatrain.codecs
 
-import com.jpmc.json.Json
+import com.scalatrain.json.Json
 import Decoder.DecodeResult
-import com.jpmc.codecs.Encoder.User
+import com.scalatrain.codecs.Encoder.User
+import com.scalatrain.codecs.Encoder.User.Kind
 
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
@@ -122,7 +123,7 @@ object Decoder {
       }
   }
 
-  implicit val kindDecoder: Decoder[User.Kind] = fromPartial {
+  implicit val kindDecoder: Decoder[Kind] = fromPartial {
     case Json.String(strVal) => strVal match {
       case "Privileged" => Right(User.Kind.Privileged)
       case "Normal"     => Right(User.Kind.Normal)

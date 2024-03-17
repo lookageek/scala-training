@@ -1,6 +1,6 @@
-package com.jpmc.json
+package com.scalatrain.json
 
-import com.jpmc.json.Json._
+import com.scalatrain.json.Json._
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks

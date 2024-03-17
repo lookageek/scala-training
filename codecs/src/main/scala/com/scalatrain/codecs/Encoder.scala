@@ -1,6 +1,6 @@
-package com.jpmc.codecs
+package com.scalatrain.codecs
 
-import com.jpmc.json._
+import com.scalatrain.json._
 
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter

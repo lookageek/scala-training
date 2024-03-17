@@ -1,4 +1,4 @@
-package com.jpmc.gen
+package com.scalatrain.gen
 
 // https://en.wikipedia.org/wiki/Linear_congruential_generator
 object Rng {

@@ -1,4 +1,4 @@
-package com.jpmc.gen
+package com.scalatrain.gen
 
 import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.matchers.should.Matchers

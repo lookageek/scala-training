@@ -1,4 +1,4 @@
-package com.jpmc.json
+package com.scalatrain.json
 
 sealed trait Json extends Product with Serializable
 
